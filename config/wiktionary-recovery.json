@@ -1,0 +1,9 @@
+{
+  "scope": "Existing temporary prototype recoveries only. Do not extend; replace during the proper corpus-based coverage build.",
+  "entries": [
+    {"surface": "deyip", "target": "demek", "source_labels": ["perfective temporal adverb"], "labels": ["converb (-ip: and / having …)"]},
+    {"surface": "nerden", "target": "nereden", "source_labels": ["alternative colloquial"], "labels": ["colloquial form"]},
+    {"surface": "orjinal", "target": "orijinal", "source_labels": ["alternative proscribed"], "labels": ["nonstandard spelling"]},
+    {"surface": "yinede", "target": "yine de", "source_labels": ["alternative misspelling"], "labels": ["nonstandard joined spelling"]}
+  ]
+}

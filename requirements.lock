@@ -1,0 +1,15 @@
+ftfy==6.3.1
+langcodes==3.5.1
+locate==1.1.1
+msgpack==1.2.3
+nlptoolkit_corpus==1.0.28
+nlptoolkit_datastructure==1.0.15
+nlptoolkit_dictionary==1.0.38
+nlptoolkit_math==1.0.21
+nlptoolkit_morphologicalanalysis==1.0.52
+nlptoolkit_util==1.0.13
+psutil==7.2.2
+regex==2026.9.29
+setuptools==80.9.0
+wcwidth==0.9.1
+wordfreq==3.1.1

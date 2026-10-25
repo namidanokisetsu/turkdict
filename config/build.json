@@ -1,0 +1,48 @@
+{
+  "manifest": "config/sources.lock.json",
+  "cache": "cache/stages",
+  "disabled_sources": [],
+  "presentation": {
+    "source_order": {
+      "tr": [
+        "tdk",
+        "kenet"
+      ],
+      "en": [
+        "wty",
+        "tureng"
+      ]
+    },
+    "morphology_position": "top",
+    "morphology_style": "english-grammatical-terms-with-meaning-hints",
+    "morphology_language": "en",
+    "morphology_density": "small-inline",
+    "language_headings": "hidden",
+    "technical_feature_codes": "hidden",
+    "visible_senses": 3,
+    "visible_translations": 10,
+    "examples": "inline-italic",
+    "etymology": "separate",
+    "build_metadata": "hidden",
+    "expansion_label": "More",
+    "expand_single_remainder": false,
+    "translations_style": "semicolon-list-with-flat-more"
+  },
+  "frequency": {
+    "wordfreq": "3.1.1",
+    "books": []
+  },
+  "weights": {
+    "subtitles": 1.0,
+    "wordfreq": 1.0,
+    "book_occurrences": 0.0,
+    "book_documents": 0.0
+  },
+  "morphology": {
+    "engine": "zemberek",
+    "selection_status": "selected-zemberek-accuracy-review-pending",
+    "observed_limit": 15000,
+    "generate_lemmas": [],
+    "generation_templates": []
+  }
+}

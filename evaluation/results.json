@@ -1,0 +1,6322 @@
+{
+  "zemberek": {
+    "cases": [
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+A3sg",
+            "segmentation": null,
+            "surface": "ev"
+          }
+        ],
+        "category": "noun",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "ev"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+ler:A3pl",
+            "segmentation": null,
+            "surface": "evler"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A3pl",
+                "label": "3. person plural agreement"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+A3sg|Zero→Verb+Pres+ler:A3pl",
+            "segmentation": null,
+            "surface": "evler"
+          }
+        ],
+        "category": "plural",
+        "expected": [
+          {
+            "features": [
+              "Noun",
+              "A3pl"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evler"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P1pl",
+                "label": "1. person plural possessor"
+              },
+              {
+                "id": "Abl",
+                "label": "ablative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+ler:A3pl+imiz:P1pl+den:Abl",
+            "segmentation": null,
+            "surface": "evlerimizden"
+          }
+        ],
+        "category": "possession-case",
+        "expected": [
+          {
+            "features": [
+              "A3pl",
+              "P1pl",
+              "Abl"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evlerimizden"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              },
+              {
+                "id": "Loc",
+                "label": "locative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+A3sg+im:P1sg+de:Loc",
+            "segmentation": null,
+            "surface": "evimde"
+          }
+        ],
+        "category": "possession-case",
+        "expected": [
+          {
+            "features": [
+              "P1sg",
+              "Loc"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evimde"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Gen",
+                "label": "genitive"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+A3sg+in:Gen",
+            "segmentation": null,
+            "surface": "evin"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+A3sg+in:P2sg",
+            "segmentation": null,
+            "surface": "evin"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "evin",
+            "raw": "[Evin:Noun,Prop] evin:Noun+A3sg",
+            "segmentation": null,
+            "surface": "evin"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "evin",
+            "raw": "[evin:Noun] evin:Noun+A3sg",
+            "segmentation": null,
+            "surface": "evin"
+          }
+        ],
+        "category": "ambiguity",
+        "expected": [
+          {
+            "features": [
+              "Gen"
+            ],
+            "lemma": "ev"
+          },
+          {
+            "features": [
+              "P2sg"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evin"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3pl",
+                "label": "3. person plural possessor"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+A3sg+leri:P3pl",
+            "segmentation": null,
+            "surface": "evleri"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+ler:A3pl+i:Acc",
+            "segmentation": null,
+            "surface": "evleri"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+ler:A3pl+i:P3sg",
+            "segmentation": null,
+            "surface": "evleri"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P3pl",
+                "label": "3. person plural possessor"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "[ev:Noun] ev:Noun+ler:A3pl+i:P3pl",
+            "segmentation": null,
+            "surface": "evleri"
+          }
+        ],
+        "category": "ambiguity",
+        "expected": [
+          {
+            "features": [
+              "A3pl",
+              "Acc"
+            ],
+            "lemma": "ev"
+          },
+          {
+            "features": [
+              "P3pl"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evleri"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "kitab",
+            "raw": "[Kitab:Noun,Prop] kitab:Noun+A3sg+ı:Acc",
+            "segmentation": null,
+            "surface": "kitabı"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              }
+            ],
+            "lemma": "kitab",
+            "raw": "[Kitab:Noun,Prop] kitab:Noun+A3sg+ı:P3sg",
+            "segmentation": null,
+            "surface": "kitabı"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "kitap",
+            "raw": "[kitap:Noun] kitab:Noun+A3sg+ı:Acc",
+            "segmentation": null,
+            "surface": "kitabı"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              }
+            ],
+            "lemma": "kitap",
+            "raw": "[kitap:Noun] kitab:Noun+A3sg+ı:P3sg",
+            "segmentation": null,
+            "surface": "kitabı"
+          }
+        ],
+        "category": "voicing-ambiguity",
+        "expected": [
+          {
+            "features": [
+              "Acc"
+            ],
+            "lemma": "kitap"
+          },
+          {
+            "features": [
+              "P3sg"
+            ],
+            "lemma": "kitap"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "kitabı"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Loc",
+                "label": "locative"
+              }
+            ],
+            "lemma": "kitap",
+            "raw": "[Kitap:Noun,Prop] kitap:Noun+A3sg+ta:Loc",
+            "segmentation": null,
+            "surface": "kitapta"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Loc",
+                "label": "locative"
+              }
+            ],
+            "lemma": "kitap",
+            "raw": "[kitap:Noun] kitap:Noun+A3sg+ta:Loc",
+            "segmentation": null,
+            "surface": "kitapta"
+          }
+        ],
+        "category": "consonant-harmony",
+        "expected": [
+          {
+            "features": [
+              "Loc"
+            ],
+            "lemma": "kitap"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "kitapta"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "ağız",
+            "raw": "[ağız:Noun] ağz:Noun+A3sg+ın:P2sg+ı:Acc",
+            "segmentation": null,
+            "surface": "ağzını"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "ağız",
+            "raw": "[ağız:Noun] ağz:Noun+A3sg+ı:P3sg+nı:Acc",
+            "segmentation": null,
+            "surface": "ağzını"
+          }
+        ],
+        "category": "vowel-loss",
+        "expected": [
+          {
+            "features": [
+              "P2sg",
+              "Acc"
+            ],
+            "lemma": "ağız"
+          },
+          {
+            "features": [
+              "P3sg",
+              "Acc"
+            ],
+            "lemma": "ağız"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "ağzını"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "burn",
+            "raw": "[Burn:Noun,Prop] burn:Noun+A3sg+um:P1sg",
+            "segmentation": null,
+            "surface": "burnum"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "burun",
+            "raw": "[burun:Noun] burn:Noun+A3sg+um:P1sg",
+            "segmentation": null,
+            "surface": "burnum"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "burn",
+            "raw": "[Burn:Noun,Prop] burn:Noun+A3sg|Zero→Verb+Pres+um:A1sg",
+            "segmentation": null,
+            "surface": "burnum"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "burun",
+            "raw": "[burun:Noun] burn:Noun+A3sg|Zero→Verb+Pres+um:A1sg",
+            "segmentation": null,
+            "surface": "burnum"
+          }
+        ],
+        "category": "vowel-loss",
+        "expected": [
+          {
+            "features": [
+              "P1sg"
+            ],
+            "lemma": "burun"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "burnum"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "renk",
+            "raw": "[renk:Noun] reng:Noun+A3sg+i:Acc",
+            "segmentation": null,
+            "surface": "rengi"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              }
+            ],
+            "lemma": "renk",
+            "raw": "[renk:Noun] reng:Noun+A3sg+i:P3sg",
+            "segmentation": null,
+            "surface": "rengi"
+          }
+        ],
+        "category": "voicing",
+        "expected": [
+          {
+            "features": [
+              "Acc"
+            ],
+            "lemma": "renk"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "rengi"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "çocuk",
+            "raw": "[çocuk:Noun] çocuğ:Noun+A3sg+a:Dat",
+            "segmentation": null,
+            "surface": "çocuğa"
+          },
+          {
+            "features": [
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "çocuk",
+            "raw": "[çocuk:Adj] çocuğ:Adj|Zero→Noun+A3sg+a:Dat",
+            "segmentation": null,
+            "surface": "çocuğa"
+          }
+        ],
+        "category": "voicing",
+        "expected": [
+          {
+            "features": [
+              "Dat"
+            ],
+            "lemma": "çocuk"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "çocuğa"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "hakk",
+            "raw": "[Hakk:Noun,Prop] hakk:Noun+A3sg+ım:P1sg",
+            "segmentation": null,
+            "surface": "hakkım"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "hak",
+            "raw": "[Hak:Noun,Prop] hakk:Noun+A3sg+ım:P1sg",
+            "segmentation": null,
+            "surface": "hakkım"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "hak",
+            "raw": "[hak:Noun] hakk:Noun+A3sg+ım:P1sg",
+            "segmentation": null,
+            "surface": "hakkım"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "hakk",
+            "raw": "[Hakk:Noun,Prop] hakk:Noun+A3sg|Zero→Verb+Pres+ım:A1sg",
+            "segmentation": null,
+            "surface": "hakkım"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "hak",
+            "raw": "[Hak:Noun,Prop] hakk:Noun+A3sg|Zero→Verb+Pres+ım:A1sg",
+            "segmentation": null,
+            "surface": "hakkım"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "hak",
+            "raw": "[hak:Noun] hakk:Noun+A3sg|Zero→Verb+Pres+ım:A1sg",
+            "segmentation": null,
+            "surface": "hakkım"
+          }
+        ],
+        "category": "gemination",
+        "expected": [
+          {
+            "features": [
+              "P1sg"
+            ],
+            "lemma": "hak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "hakkım"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "su",
+            "raw": "[su:Noun] su:Noun+A3sg+yu:Acc",
+            "segmentation": null,
+            "surface": "suyu"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              }
+            ],
+            "lemma": "su",
+            "raw": "[su:Noun] su:Noun+A3sg+yu:P3sg",
+            "segmentation": null,
+            "surface": "suyu"
+          }
+        ],
+        "category": "irregular-noun",
+        "expected": [
+          {
+            "features": [
+              "Acc"
+            ],
+            "lemma": "su"
+          },
+          {
+            "features": [
+              "P3sg"
+            ],
+            "lemma": "su"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "suyu"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Opt",
+                "label": "optative"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "banmak",
+            "raw": "[banmak:Verb] ban:Verb+a:Opt+A3sg",
+            "segmentation": null,
+            "surface": "bana"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "ba",
+            "raw": "[Ba:Noun,Prop] ba:Noun+A3sg+n:P2sg+a:Dat",
+            "segmentation": null,
+            "surface": "bana"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "ban",
+            "raw": "[ban:Noun] ban:Noun+A3sg+a:Dat",
+            "segmentation": null,
+            "surface": "bana"
+          },
+          {
+            "features": [
+              {
+                "id": "Pron",
+                "label": "pronoun"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "ben",
+            "raw": "[ben:Pron,Pers] ban:Pron+A1sg+a:Dat",
+            "segmentation": null,
+            "surface": "bana"
+          }
+        ],
+        "category": "irregular-pronoun",
+        "expected": [
+          {
+            "features": [
+              "Dat"
+            ],
+            "lemma": "ben"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "bana"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Opt",
+                "label": "optative"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "sanmak",
+            "raw": "[sanmak:Verb] san:Verb+a:Opt+A3sg",
+            "segmentation": null,
+            "surface": "sana"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "san",
+            "raw": "[san:Noun] san:Noun+A3sg+a:Dat",
+            "segmentation": null,
+            "surface": "sana"
+          },
+          {
+            "features": [
+              {
+                "id": "Pron",
+                "label": "pronoun"
+              },
+              {
+                "id": "A2sg",
+                "label": "2. person singular agreement"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "sen",
+            "raw": "[sen:Pron,Pers] san:Pron+A2sg+a:Dat",
+            "segmentation": null,
+            "surface": "sana"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "sana",
+            "raw": "[Sana:Noun,Prop] sana:Noun+A3sg",
+            "segmentation": null,
+            "surface": "sana"
+          }
+        ],
+        "category": "irregular-pronoun",
+        "expected": [
+          {
+            "features": [
+              "Dat"
+            ],
+            "lemma": "sen"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "sana"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Abl",
+                "label": "ablative"
+              }
+            ],
+            "lemma": "ankara",
+            "raw": "[Ankara:Noun,Prop] ankara:Noun+A3sg+dan:Abl",
+            "segmentation": null,
+            "surface": "Ankara'dan"
+          }
+        ],
+        "category": "proper-name",
+        "expected": [
+          {
+            "features": [
+              "Abl"
+            ],
+            "lemma": "Ankara"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "Ankara'dan"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Gen",
+                "label": "genitive"
+              }
+            ],
+            "lemma": "türkiye",
+            "raw": "[Türkiye:Noun,Prop] türkiye:Noun+A3sg+nin:Gen",
+            "segmentation": null,
+            "surface": "Türkiye'nin"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              },
+              {
+                "id": "Gen",
+                "label": "genitive"
+              }
+            ],
+            "lemma": "türkiye",
+            "raw": "[Türkiye:Noun,Prop] türkiye:Noun+A3sg+n:P2sg+in:Gen",
+            "segmentation": null,
+            "surface": "Türkiye'nin"
+          }
+        ],
+        "category": "curly-apostrophe",
+        "expected": [
+          {
+            "features": [
+              "Gen"
+            ],
+            "lemma": "Türkiye"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "Türkiye’nin"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "istanbul",
+            "raw": "[İstanbul:Noun,Prop] istanbul:Noun+A3sg+a:Dat",
+            "segmentation": null,
+            "surface": "İstanbul'a"
+          }
+        ],
+        "category": "proper-name",
+        "expected": [
+          {
+            "features": [
+              "Dat"
+            ],
+            "lemma": "İstanbul"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "İstanbul'a"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+iyor:Prog1+um:A1sg",
+            "segmentation": null,
+            "surface": "geliyorum"
+          }
+        ],
+        "category": "progressive-person",
+        "expected": [
+          {
+            "features": [
+              "Prog1",
+              "A1sg"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "geliyorum"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Neg",
+                "label": "negation"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+m:Neg+iyor:Prog1+um:A1sg",
+            "segmentation": null,
+            "surface": "gelmiyorum"
+          }
+        ],
+        "category": "negation",
+        "expected": [
+          {
+            "features": [
+              "Neg",
+              "Prog1",
+              "A1sg"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelmiyorum"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+di:Past+k:A1pl",
+            "segmentation": null,
+            "surface": "geldik"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb|dik:PastPart→Adj",
+            "segmentation": null,
+            "surface": "geldik"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb|dik:PastPart→Noun+A3sg",
+            "segmentation": null,
+            "surface": "geldik"
+          }
+        ],
+        "category": "past-person",
+        "expected": [
+          {
+            "features": [
+              "Past",
+              "A1pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "geldik"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Narr",
+                "label": "reported past"
+              },
+              {
+                "id": "A2pl",
+                "label": "2. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+miş:Narr+siniz:A2pl",
+            "segmentation": null,
+            "surface": "gelmişsiniz"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "NarrPart",
+                "label": "reported past participle"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A2pl",
+                "label": "2. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb|miş:NarrPart→Adj|Zero→Verb+Pres+siniz:A2pl",
+            "segmentation": null,
+            "surface": "gelmişsiniz"
+          }
+        ],
+        "category": "reported-past",
+        "expected": [
+          {
+            "features": [
+              "Narr",
+              "A2pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelmişsiniz"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Fut",
+                "label": "future"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+eceğ:Fut+im:A1sg",
+            "segmentation": null,
+            "surface": "geleceğim"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "FutPart",
+                "label": "future participle"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb|eceğ:FutPart→Adj+im:P1sg",
+            "segmentation": null,
+            "surface": "geleceğim"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "gelecek",
+            "raw": "[gelecek:Noun] geleceğ:Noun+A3sg+im:P1sg",
+            "segmentation": null,
+            "surface": "geleceğim"
+          },
+          {
+            "features": [
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelecek",
+            "raw": "[gelecek:Adj] geleceğ:Adj|Zero→Verb+Pres+im:A1sg",
+            "segmentation": null,
+            "surface": "geleceğim"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "FutPart",
+                "label": "future participle"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb|eceğ:FutPart→Noun+A3sg+im:P1sg",
+            "segmentation": null,
+            "surface": "geleceğim"
+          },
+          {
+            "features": [
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "gelecek",
+            "raw": "[gelecek:Adj] geleceğ:Adj|Zero→Noun+A3sg+im:P1sg",
+            "segmentation": null,
+            "surface": "geleceğim"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelecek",
+            "raw": "[gelecek:Noun] geleceğ:Noun+A3sg|Zero→Verb+Pres+im:A1sg",
+            "segmentation": null,
+            "surface": "geleceğim"
+          }
+        ],
+        "category": "future-voicing",
+        "expected": [
+          {
+            "features": [
+              "Fut",
+              "A1sg"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "geleceğim"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Unable",
+                "label": "inability"
+              },
+              {
+                "id": "Aor",
+                "label": "aorist"
+              },
+              {
+                "id": "A2pl",
+                "label": "2. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+eme:Unable+z:Aor+siniz:A2pl",
+            "segmentation": null,
+            "surface": "gelemezsiniz"
+          }
+        ],
+        "category": "inability-negation",
+        "expected": [
+          {
+            "features": [
+              "Aor",
+              "A2pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelemezsiniz"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Neces",
+                "label": "necessity"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+meli:Neces+yiz:A1pl",
+            "segmentation": null,
+            "surface": "gelmeliyiz"
+          }
+        ],
+        "category": "necessity",
+        "expected": [
+          {
+            "features": [
+              "Neces",
+              "A1pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelmeliyiz"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Desr",
+                "label": "desiderative"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+se:Desr+ydi:Past+m:A1sg",
+            "segmentation": null,
+            "surface": "gelseydim"
+          }
+        ],
+        "category": "conditional-past",
+        "expected": [
+          {
+            "features": [
+              "Past",
+              "A1sg"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelseydim"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Imp",
+                "label": "imperative"
+              },
+              {
+                "id": "A2pl",
+                "label": "2. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb+Imp+in:A2pl",
+            "segmentation": null,
+            "surface": "gelin"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "gelin",
+            "raw": "[gelin:Noun] gelin:Noun+A3sg",
+            "segmentation": null,
+            "surface": "gelin"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pass",
+                "label": "passive"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Imp",
+                "label": "imperative"
+              },
+              {
+                "id": "A2sg",
+                "label": "2. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "[gelmek:Verb] gel:Verb|in:Pass→Verb+Imp+A2sg",
+            "segmentation": null,
+            "surface": "gelin"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "With",
+                "label": "having"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              }
+            ],
+            "lemma": "ge",
+            "raw": "[ge:Noun] ge:Noun+A3sg|li:With→Adj|Zero→Noun+A3sg+n:P2sg",
+            "segmentation": null,
+            "surface": "gelin"
+          }
+        ],
+        "category": "lexicalized-ambiguity",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "gelin"
+          },
+          {
+            "features": [
+              "Imp",
+              "A2pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelin"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Adj",
+                "label": "adjective"
+              }
+            ],
+            "lemma": "yazar",
+            "raw": "[yazar:Adj] yazar:Adj",
+            "segmentation": null,
+            "surface": "yazar"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Aor",
+                "label": "aorist"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "yazmak",
+            "raw": "[yazmak:Verb] yaz:Verb+ar:Aor+A3sg",
+            "segmentation": null,
+            "surface": "yazar"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "AorPart",
+                "label": "aorist participle"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              }
+            ],
+            "lemma": "yazmak",
+            "raw": "[yazmak:Verb] yaz:Verb|ar:AorPart→Adj",
+            "segmentation": null,
+            "surface": "yazar"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "yazar",
+            "raw": "[yazar:Noun] yazar:Noun+A3sg",
+            "segmentation": null,
+            "surface": "yazar"
+          }
+        ],
+        "category": "lexicalized-ambiguity",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "yazar"
+          },
+          {
+            "features": [
+              "Aor"
+            ],
+            "lemma": "yazmak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yazar"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "okumak",
+            "raw": "[okumak:Verb] ok:Verb+uyor:Prog1+um:A1sg",
+            "segmentation": null,
+            "surface": "okuyorum"
+          }
+        ],
+        "category": "buffer-consonant",
+        "expected": [
+          {
+            "features": [
+              "Prog1",
+              "A1sg"
+            ],
+            "lemma": "okumak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "okuyorum"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "demek",
+            "raw": "[demek:Verb] di:Verb+yor:Prog1+A3sg",
+            "segmentation": null,
+            "surface": "diyor"
+          }
+        ],
+        "category": "vowel-change",
+        "expected": [
+          {
+            "features": [
+              "Prog1"
+            ],
+            "lemma": "demek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "diyor"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "yemek",
+            "raw": "[yemek:Verb] yi:Verb+yor:Prog1+A3sg",
+            "segmentation": null,
+            "surface": "yiyor"
+          }
+        ],
+        "category": "vowel-change",
+        "expected": [
+          {
+            "features": [
+              "Prog1"
+            ],
+            "lemma": "yemek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yiyor"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "gitmek",
+            "raw": "[gitmek:Verb] gid:Verb+iyor:Prog1+A3sg",
+            "segmentation": null,
+            "surface": "gidiyor"
+          }
+        ],
+        "category": "voicing-verb",
+        "expected": [
+          {
+            "features": [
+              "Prog1"
+            ],
+            "lemma": "gitmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gidiyor"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pass",
+                "label": "passive"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "yapmak",
+            "raw": "[yapmak:Verb] yap:Verb|ıl:Pass→Verb+dı:Past+A3sg",
+            "segmentation": null,
+            "surface": "yapıldı"
+          }
+        ],
+        "category": "passive",
+        "expected": [
+          {
+            "features": [
+              "Pass",
+              "Past"
+            ],
+            "lemma": "yapmak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yapıldı"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Caus",
+                "label": "causative"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "yapmak",
+            "raw": "[yapmak:Verb] yap:Verb|tır:Caus→Verb+dı:Past+m:A1sg",
+            "segmentation": null,
+            "surface": "yaptırdım"
+          }
+        ],
+        "category": "causative",
+        "expected": [
+          {
+            "features": [
+              "Caus",
+              "Past",
+              "A1sg"
+            ],
+            "lemma": "yapmak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yaptırdım"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "okumak",
+            "raw": "[okumak:Verb] oku:Verb|duk:PastPart→Noun+lar:A3pl+ım:P1sg+ı:Acc",
+            "segmentation": null,
+            "surface": "okuduklarımı"
+          }
+        ],
+        "category": "participle-possession",
+        "expected": [
+          {
+            "features": [
+              "PastPart",
+              "P1sg",
+              "Acc"
+            ],
+            "lemma": "okumak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "okuduklarımı"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P1pl",
+                "label": "1. person plural possessor"
+              },
+              {
+                "id": "Abl",
+                "label": "ablative"
+              }
+            ],
+            "lemma": "yapmak",
+            "raw": "[yapmak:Verb] yap:Verb|tık:PastPart→Noun+lar:A3pl+ımız:P1pl+dan:Abl",
+            "segmentation": null,
+            "surface": "yaptıklarımızdan"
+          }
+        ],
+        "category": "participle-case",
+        "expected": [
+          {
+            "features": [
+              "PastPart",
+              "P1pl",
+              "Abl"
+            ],
+            "lemma": "yapmak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yaptıklarımızdan"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Unable",
+                "label": "inability"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "P1pl",
+                "label": "1. person plural possessor"
+              }
+            ],
+            "lemma": "vazgeçmek",
+            "raw": "[vazgeçmek:Verb] vazgeç:Verb+eme:Unable|diğ:PastPart→Adj+imiz:P1pl",
+            "segmentation": null,
+            "surface": "vazgeçemediğimiz"
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Unable",
+                "label": "inability"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1pl",
+                "label": "1. person plural possessor"
+              }
+            ],
+            "lemma": "vazgeçmek",
+            "raw": "[vazgeçmek:Verb] vazgeç:Verb+eme:Unable|diğ:PastPart→Noun+A3sg+imiz:P1pl",
+            "segmentation": null,
+            "surface": "vazgeçemediğimiz"
+          }
+        ],
+        "category": "compound-verb",
+        "expected": [
+          {
+            "features": [
+              "Neg",
+              "PastPart",
+              "P1pl"
+            ],
+            "lemma": "vazgeçmek"
+          }
+        ],
+        "missing_features": [
+          {
+            "features": [
+              "Neg",
+              "PastPart",
+              "P1pl"
+            ],
+            "lemma": "vazgeçmek"
+          }
+        ],
+        "missing_lemmas": [],
+        "surface": "vazgeçemediğimiz"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Agt",
+                "label": "agent noun"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "gözlük",
+            "raw": "[gözlük:Noun] gözlük:Noun+A3sg|çü:Agt→Noun+A3sg",
+            "segmentation": null,
+            "surface": "gözlükçü"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Ness",
+                "label": "abstract noun"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Agt",
+                "label": "agent noun"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "göz",
+            "raw": "[göz:Noun] göz:Noun+A3sg|lük:Ness→Noun+A3sg|çü:Agt→Noun+A3sg",
+            "segmentation": null,
+            "surface": "gözlükçü"
+          }
+        ],
+        "category": "lexicalized-derivative",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "gözlükçü"
+          }
+        ],
+        "missing_features": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "gözlükçü"
+          }
+        ],
+        "missing_lemmas": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "gözlükçü"
+          }
+        ],
+        "surface": "gözlükçü"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "ışık",
+            "raw": "[Işık:Noun,Prop] ışık:Noun+A3sg",
+            "segmentation": null,
+            "surface": "IŞIK"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              }
+            ],
+            "lemma": "ışık",
+            "raw": "[ışık:Noun] ışık:Noun+A3sg",
+            "segmentation": null,
+            "surface": "IŞIK"
+          }
+        ],
+        "category": "turkish-case",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "ışık"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "IŞIK"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "kâğıt",
+            "raw": "[kâğıt:Noun] kağıd:Noun+A3sg+ı:Acc",
+            "segmentation": null,
+            "surface": "kâğıdı"
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              }
+            ],
+            "lemma": "kâğıt",
+            "raw": "[kâğıt:Noun] kağıd:Noun+A3sg+ı:P3sg",
+            "segmentation": null,
+            "surface": "kâğıdı"
+          },
+          {
+            "features": [
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "kâğıt",
+            "raw": "[kâğıt:Adj] kağıd:Adj|Zero→Noun+A3sg+ı:Acc",
+            "segmentation": null,
+            "surface": "kâğıdı"
+          },
+          {
+            "features": [
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              }
+            ],
+            "lemma": "kâğıt",
+            "raw": "[kâğıt:Adj] kağıd:Adj|Zero→Noun+A3sg+ı:P3sg",
+            "segmentation": null,
+            "surface": "kâğıdı"
+          }
+        ],
+        "category": "circumflex",
+        "expected": [
+          {
+            "features": [
+              "Acc"
+            ],
+            "lemma": "kâğıt"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "kâğıdı"
+      },
+      {
+        "analyses": [],
+        "category": "negative-control",
+        "expected": [],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "negative": true,
+        "surface": "qzxqzx"
+      },
+      {
+        "analyses": [],
+        "category": "negative-control",
+        "expected": [],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "negative": true,
+        "surface": "evlerlerden"
+      },
+      {
+        "analyses": [],
+        "category": "negative-control",
+        "expected": [],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "negative": true,
+        "surface": "kitaplarden"
+      },
+      {
+        "analyses": [],
+        "category": "negative-control",
+        "expected": [],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "negative": true,
+        "surface": "geldimiz"
+      }
+    ],
+    "cases_sha256": "cd50281136f9a33947188a8aa7386104460acb482a5634bf0953379783bfa3c2",
+    "corrections_sha256": "1fc91550ac9f3de3168aa507c6e5be772f5a8fa833225082fc4785b7dfa923a0",
+    "dependencies_sha256": "d33acade24e0d0af5823a0d929540b068a5665099d7315924344efe877e25ae6",
+    "engine": "zemberek:0.17.1",
+    "evaluation_seconds": 0.04510870005469769,
+    "expected_analyses": 48,
+    "feature_constraint_hits": 46,
+    "feature_constraint_recall": 0.9583333333333334,
+    "feature_note": "Checks named feature subsets, not full sequence accuracy. Engine defaults/derivation conventions differ.",
+    "initialization_seconds": 1.1924010999500751,
+    "java_lock_sha256": "bc5c502a221d4c81b86cec15becc4300d0925bffdf115dd476403a6e69442ac9",
+    "lemma_hits": 47,
+    "lemma_recall": 0.9791666666666666,
+    "missed_expected_analyses": 2,
+    "negative_controls": 4,
+    "negative_controls_with_false_matches": 0,
+    "peak_process_tree_rss_bytes": 346836992,
+    "precision": null,
+    "precision_note": "Positive expectations are non-exhaustive; additional analyses are unjudged, not false positives.",
+    "python": "3.14.7",
+    "review_status": "draft-awaiting-independent-human-review",
+    "throughput": {
+      "forms": 2000,
+      "forms_per_second": 6246.576095403707,
+      "seconds": 0.32017540000379086
+    }
+  },
+  "dilbaz": {
+    "cases": [
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3SG+PNON+NOM",
+            "segmentation": null
+          }
+        ],
+        "category": "noun",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "ev"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3PL+PNON+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A3pl",
+                "label": "3. person plural agreement"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3SG+PNON+NOM^DB+VERB+ZERO+PRES+A3PL",
+            "segmentation": null
+          }
+        ],
+        "category": "plural",
+        "expected": [
+          {
+            "features": [
+              "Noun",
+              "A3pl"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evler"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P1pl",
+                "label": "1. person plural possessor"
+              },
+              {
+                "id": "Abl",
+                "label": "ablative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3PL+P1PL+ABL",
+            "segmentation": null
+          }
+        ],
+        "category": "possession-case",
+        "expected": [
+          {
+            "features": [
+              "A3pl",
+              "P1pl",
+              "Abl"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evlerimizden"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              },
+              {
+                "id": "Loc",
+                "label": "locative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3SG+P1SG+LOC",
+            "segmentation": null
+          }
+        ],
+        "category": "possession-case",
+        "expected": [
+          {
+            "features": [
+              "P1sg",
+              "Loc"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evimde"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3SG+P2SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Gen",
+                "label": "genitive"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3SG+PNON+GEN",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "evin",
+            "raw": "evin+NOUN+A3SG+PNON+NOM",
+            "segmentation": null
+          }
+        ],
+        "category": "ambiguity",
+        "expected": [
+          {
+            "features": [
+              "Gen"
+            ],
+            "lemma": "ev"
+          },
+          {
+            "features": [
+              "P2sg"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evin"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P3pl",
+                "label": "3. person plural possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3PL+P3PL+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3PL+P3SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3PL+PNON+ACC",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3pl",
+                "label": "3. person plural possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "ev",
+            "raw": "ev+NOUN+A3SG+P3PL+NOM",
+            "segmentation": null
+          }
+        ],
+        "category": "ambiguity",
+        "expected": [
+          {
+            "features": [
+              "A3pl",
+              "Acc"
+            ],
+            "lemma": "ev"
+          },
+          {
+            "features": [
+              "P3pl"
+            ],
+            "lemma": "ev"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "evleri"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "kitap",
+            "raw": "kitap+NOUN+A3SG+P3SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "kitap",
+            "raw": "kitap+NOUN+A3SG+PNON+ACC",
+            "segmentation": null
+          }
+        ],
+        "category": "voicing-ambiguity",
+        "expected": [
+          {
+            "features": [
+              "Acc"
+            ],
+            "lemma": "kitap"
+          },
+          {
+            "features": [
+              "P3sg"
+            ],
+            "lemma": "kitap"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "kitabı"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Loc",
+                "label": "locative"
+              }
+            ],
+            "lemma": "kitap",
+            "raw": "kitap+NOUN+A3SG+PNON+LOC",
+            "segmentation": null
+          }
+        ],
+        "category": "consonant-harmony",
+        "expected": [
+          {
+            "features": [
+              "Loc"
+            ],
+            "lemma": "kitap"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "kitapta"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "ağız",
+            "raw": "ağız+NOUN+A3SG+P2SG+ACC",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "ağız",
+            "raw": "ağız+NOUN+A3SG+P3SG+ACC",
+            "segmentation": null
+          }
+        ],
+        "category": "vowel-loss",
+        "expected": [
+          {
+            "features": [
+              "P2sg",
+              "Acc"
+            ],
+            "lemma": "ağız"
+          },
+          {
+            "features": [
+              "P3sg",
+              "Acc"
+            ],
+            "lemma": "ağız"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "ağzını"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "burun",
+            "raw": "burun+NOUN+A3SG+P1SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "burun",
+            "raw": "burun+NOUN+A3SG+PNON+NOM^DB+VERB+ZERO+PRES+A1SG",
+            "segmentation": null
+          }
+        ],
+        "category": "vowel-loss",
+        "expected": [
+          {
+            "features": [
+              "P1sg"
+            ],
+            "lemma": "burun"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "burnum"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "renk",
+            "raw": "renk+NOUN+A3SG+P3SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "renk",
+            "raw": "renk+NOUN+A3SG+PNON+ACC",
+            "segmentation": null
+          }
+        ],
+        "category": "voicing",
+        "expected": [
+          {
+            "features": [
+              "Acc"
+            ],
+            "lemma": "renk"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "rengi"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "çocuk",
+            "raw": "çocuk+NOUN+A3SG+PNON+DAT",
+            "segmentation": null
+          }
+        ],
+        "category": "voicing",
+        "expected": [
+          {
+            "features": [
+              "Dat"
+            ],
+            "lemma": "çocuk"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "çocuğa"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "hak",
+            "raw": "hak+ADJ^DB+VERB+ZERO+PRES+A1SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "hak",
+            "raw": "hak+NOUN+A3SG+PNON+NOM^DB+VERB+ZERO+PRES+A1SG",
+            "segmentation": null
+          }
+        ],
+        "category": "gemination",
+        "expected": [
+          {
+            "features": [
+              "P1sg"
+            ],
+            "lemma": "hak"
+          }
+        ],
+        "missing_features": [
+          {
+            "features": [
+              "P1sg"
+            ],
+            "lemma": "hak"
+          }
+        ],
+        "missing_lemmas": [],
+        "surface": "hakkım"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "su",
+            "raw": "su+NOUN+A3SG+P3SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "su",
+            "raw": "su+NOUN+A3SG+PNON+ACC",
+            "segmentation": null
+          }
+        ],
+        "category": "irregular-noun",
+        "expected": [
+          {
+            "features": [
+              "Acc"
+            ],
+            "lemma": "su"
+          },
+          {
+            "features": [
+              "P3sg"
+            ],
+            "lemma": "su"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "suyu"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "ban",
+            "raw": "ban+NOUN+A3SG+PNON+DAT",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Opt",
+                "label": "optative"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "banmak",
+            "raw": "ban+VERB+POS+OPT+A3SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Adv",
+                "label": "adverb"
+              }
+            ],
+            "lemma": "bana",
+            "raw": "bana+ADV",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "ben",
+            "raw": "ben+NOUN+A3SG+PNON+DAT",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Pron",
+                "label": "pronoun"
+              },
+              {
+                "id": "PERS",
+                "label": "Engine tag: PERS"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "ben",
+            "raw": "ben+PRON+PERS+A1SG+PNON+DAT",
+            "segmentation": null
+          }
+        ],
+        "category": "irregular-pronoun",
+        "expected": [
+          {
+            "features": [
+              "Dat"
+            ],
+            "lemma": "ben"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "bana"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "san",
+            "raw": "san+NOUN+A3SG+PNON+DAT",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Opt",
+                "label": "optative"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "sanmak",
+            "raw": "san+VERB+POS+OPT+A3SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Adv",
+                "label": "adverb"
+              }
+            ],
+            "lemma": "sana",
+            "raw": "sana+ADV",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Pron",
+                "label": "pronoun"
+              },
+              {
+                "id": "PERS",
+                "label": "Engine tag: PERS"
+              },
+              {
+                "id": "A2sg",
+                "label": "2. person singular agreement"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "sen",
+            "raw": "sen+PRON+PERS+A2SG+PNON+DAT",
+            "segmentation": null
+          }
+        ],
+        "category": "irregular-pronoun",
+        "expected": [
+          {
+            "features": [
+              "Dat"
+            ],
+            "lemma": "sen"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "sana"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Prop",
+                "label": "proper name"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Abl",
+                "label": "ablative"
+              }
+            ],
+            "lemma": "ankara",
+            "raw": "ankara+NOUN+PROP+A3SG+PNON+ABL",
+            "segmentation": null
+          }
+        ],
+        "category": "proper-name",
+        "expected": [
+          {
+            "features": [
+              "Abl"
+            ],
+            "lemma": "Ankara"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "Ankara'dan"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Prop",
+                "label": "proper name"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              },
+              {
+                "id": "Gen",
+                "label": "genitive"
+              }
+            ],
+            "lemma": "türkiye",
+            "raw": "türkiye+NOUN+PROP+A3SG+P2SG+GEN",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Prop",
+                "label": "proper name"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Gen",
+                "label": "genitive"
+              }
+            ],
+            "lemma": "türkiye",
+            "raw": "türkiye+NOUN+PROP+A3SG+PNON+GEN",
+            "segmentation": null
+          }
+        ],
+        "category": "curly-apostrophe",
+        "expected": [
+          {
+            "features": [
+              "Gen"
+            ],
+            "lemma": "Türkiye"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "Türkiye’nin"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Prop",
+                "label": "proper name"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Dat",
+                "label": "dative"
+              }
+            ],
+            "lemma": "istanbul",
+            "raw": "istanbul+NOUN+PROP+A3SG+PNON+DAT",
+            "segmentation": null
+          }
+        ],
+        "category": "proper-name",
+        "expected": [
+          {
+            "features": [
+              "Dat"
+            ],
+            "lemma": "İstanbul"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "İstanbul'a"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+PROG1+A1SG",
+            "segmentation": null
+          }
+        ],
+        "category": "progressive-person",
+        "expected": [
+          {
+            "features": [
+              "Prog1",
+              "A1sg"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "geliyorum"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Neg",
+                "label": "negation"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+NEG+PROG1+A1SG",
+            "segmentation": null
+          }
+        ],
+        "category": "negation",
+        "expected": [
+          {
+            "features": [
+              "Neg",
+              "Prog1",
+              "A1sg"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelmiyorum"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+PAST+A1PL",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS^DB+ADJ+PASTPART+PNON",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS^DB+NOUN+PASTPART+A3SG+PNON+NOM",
+            "segmentation": null
+          }
+        ],
+        "category": "past-person",
+        "expected": [
+          {
+            "features": [
+              "Past",
+              "A1pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "geldik"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Narr",
+                "label": "reported past"
+              },
+              {
+                "id": "A2pl",
+                "label": "2. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+NARR+A2PL",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Narr",
+                "label": "reported past"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "JustLike",
+                "label": "like or resembling"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2pl",
+                "label": "2. person plural possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+NARR^DB+ADJ+ZERO^DB+ADJ+JUSTLIKE^DB+NOUN+ZERO+A3SG+P2PL+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Narr",
+                "label": "reported past"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "JustLike",
+                "label": "like or resembling"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+NARR^DB+ADJ+ZERO^DB+ADJ+JUSTLIKE^DB+NOUN+ZERO+A3SG+P2SG+NOM^DB+VERB+ZERO+PRES+A1PL",
+            "segmentation": null
+          }
+        ],
+        "category": "reported-past",
+        "expected": [
+          {
+            "features": [
+              "Narr",
+              "A2pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelmişsiniz"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Fut",
+                "label": "future"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+FUT+A1SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "FutPart",
+                "label": "future participle"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS^DB+ADJ+FUTPART+P1SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "FutPart",
+                "label": "future participle"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS^DB+NOUN+FUTPART+A3SG+P1SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelecek",
+            "raw": "gelecek+ADJ^DB+VERB+ZERO+PRES+A1SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "gelecek",
+            "raw": "gelecek+NOUN+A3SG+P1SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelecek",
+            "raw": "gelecek+NOUN+A3SG+PNON+NOM^DB+VERB+ZERO+PRES+A1SG",
+            "segmentation": null
+          }
+        ],
+        "category": "future-voicing",
+        "expected": [
+          {
+            "features": [
+              "Fut",
+              "A1sg"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "geleceğim"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Able",
+                "label": "ability"
+              },
+              {
+                "id": "Neg",
+                "label": "negation"
+              },
+              {
+                "id": "Aor",
+                "label": "aorist"
+              },
+              {
+                "id": "A2pl",
+                "label": "2. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB^DB+VERB+ABLE+NEG+AOR+A2PL",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Able",
+                "label": "ability"
+              },
+              {
+                "id": "Neg",
+                "label": "negation"
+              },
+              {
+                "id": "Aor",
+                "label": "aorist"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "JustLike",
+                "label": "like or resembling"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2pl",
+                "label": "2. person plural possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB^DB+VERB+ABLE+NEG+AOR^DB+ADJ+ZERO^DB+ADJ+JUSTLIKE^DB+NOUN+ZERO+A3SG+P2PL+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Able",
+                "label": "ability"
+              },
+              {
+                "id": "Neg",
+                "label": "negation"
+              },
+              {
+                "id": "Aor",
+                "label": "aorist"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "JustLike",
+                "label": "like or resembling"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P2sg",
+                "label": "2. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB^DB+VERB+ABLE+NEG+AOR^DB+ADJ+ZERO^DB+ADJ+JUSTLIKE^DB+NOUN+ZERO+A3SG+P2SG+NOM^DB+VERB+ZERO+PRES+A1PL",
+            "segmentation": null
+          }
+        ],
+        "category": "inability-negation",
+        "expected": [
+          {
+            "features": [
+              "Aor",
+              "A2pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelemezsiniz"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Neces",
+                "label": "necessity"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+NECES+A1PL",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Inf2",
+                "label": "verbal noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "With",
+                "label": "having"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS^DB+NOUN+INF2+A3SG+PNON+NOM^DB+ADJ+WITH^DB+VERB+ZERO+PRES+A1PL",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "With",
+                "label": "having"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "gelme",
+            "raw": "gelme+NOUN+A3SG+PNON+NOM^DB+ADJ+WITH^DB+VERB+ZERO+PRES+A1PL",
+            "segmentation": null
+          }
+        ],
+        "category": "necessity",
+        "expected": [
+          {
+            "features": [
+              "Neces",
+              "A1pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelmeliyiz"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Cond",
+                "label": "conditional"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+COND+PAST+A1SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Desr",
+                "label": "desiderative"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+DESR+PAST+A1SG",
+            "segmentation": null
+          }
+        ],
+        "category": "conditional-past",
+        "expected": [
+          {
+            "features": [
+              "Past",
+              "A1sg"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelseydim"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Imp",
+                "label": "imperative"
+              },
+              {
+                "id": "A2pl",
+                "label": "2. person plural agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB+POS+IMP+A2PL",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pass",
+                "label": "passive"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Imp",
+                "label": "imperative"
+              },
+              {
+                "id": "A2sg",
+                "label": "2. person singular agreement"
+              }
+            ],
+            "lemma": "gelmek",
+            "raw": "gel+VERB^DB+VERB+PASS+POS+IMP+A2SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "gelin",
+            "raw": "gelin+NOUN+A3SG+PNON+NOM",
+            "segmentation": null
+          }
+        ],
+        "category": "lexicalized-ambiguity",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "gelin"
+          },
+          {
+            "features": [
+              "Imp",
+              "A2pl"
+            ],
+            "lemma": "gelmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gelin"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Aor",
+                "label": "aorist"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "yazmak",
+            "raw": "yaz+VERB+POS+AOR+A3SG",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Aor",
+                "label": "aorist"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              }
+            ],
+            "lemma": "yazmak",
+            "raw": "yaz+VERB+POS+AOR^DB+ADJ+ZERO",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "yazar",
+            "raw": "yazar+NOUN+A3SG+PNON+NOM",
+            "segmentation": null
+          }
+        ],
+        "category": "lexicalized-ambiguity",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "yazar"
+          },
+          {
+            "features": [
+              "Aor"
+            ],
+            "lemma": "yazmak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yazar"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "okumak",
+            "raw": "oku+VERB+POS+PROG1+A1SG",
+            "segmentation": null
+          }
+        ],
+        "category": "buffer-consonant",
+        "expected": [
+          {
+            "features": [
+              "Prog1",
+              "A1sg"
+            ],
+            "lemma": "okumak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "okuyorum"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "demek",
+            "raw": "de+VERB+POS+PROG1+A3SG",
+            "segmentation": null
+          }
+        ],
+        "category": "vowel-change",
+        "expected": [
+          {
+            "features": [
+              "Prog1"
+            ],
+            "lemma": "demek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "diyor"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "yemek",
+            "raw": "ye+VERB+POS+PROG1+A3SG",
+            "segmentation": null
+          }
+        ],
+        "category": "vowel-change",
+        "expected": [
+          {
+            "features": [
+              "Prog1"
+            ],
+            "lemma": "yemek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yiyor"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Prog1",
+                "label": "progressive"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "gitmek",
+            "raw": "git+VERB+POS+PROG1+A3SG",
+            "segmentation": null
+          }
+        ],
+        "category": "voicing-verb",
+        "expected": [
+          {
+            "features": [
+              "Prog1"
+            ],
+            "lemma": "gitmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gidiyor"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pass",
+                "label": "passive"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A3sg",
+                "label": "3. person singular agreement"
+              }
+            ],
+            "lemma": "yapmak",
+            "raw": "yap+VERB^DB+VERB+PASS+POS+PAST+A3SG",
+            "segmentation": null
+          }
+        ],
+        "category": "passive",
+        "expected": [
+          {
+            "features": [
+              "Pass",
+              "Past"
+            ],
+            "lemma": "yapmak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yapıldı"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Caus",
+                "label": "causative"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "Past",
+                "label": "past tense"
+              },
+              {
+                "id": "A1sg",
+                "label": "1. person singular agreement"
+              }
+            ],
+            "lemma": "yapmak",
+            "raw": "yap+VERB^DB+VERB+CAUS+POS+PAST+A1SG",
+            "segmentation": null
+          }
+        ],
+        "category": "causative",
+        "expected": [
+          {
+            "features": [
+              "Caus",
+              "Past",
+              "A1sg"
+            ],
+            "lemma": "yapmak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yaptırdım"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "okumak",
+            "raw": "oku+VERB+POS^DB+NOUN+PASTPART+A3PL+P1SG+ACC",
+            "segmentation": null
+          }
+        ],
+        "category": "participle-possession",
+        "expected": [
+          {
+            "features": [
+              "PastPart",
+              "P1sg",
+              "Acc"
+            ],
+            "lemma": "okumak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "okuduklarımı"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Pos",
+                "label": "positive"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "A3pl",
+                "label": "plural noun"
+              },
+              {
+                "id": "P1pl",
+                "label": "1. person plural possessor"
+              },
+              {
+                "id": "Abl",
+                "label": "ablative"
+              }
+            ],
+            "lemma": "yapmak",
+            "raw": "yap+VERB+POS^DB+NOUN+PASTPART+A3PL+P1PL+ABL",
+            "segmentation": null
+          }
+        ],
+        "category": "participle-case",
+        "expected": [
+          {
+            "features": [
+              "PastPart",
+              "P1pl",
+              "Abl"
+            ],
+            "lemma": "yapmak"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "yaptıklarımızdan"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Able",
+                "label": "ability"
+              },
+              {
+                "id": "Neg",
+                "label": "negation"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "P1pl",
+                "label": "1. person plural possessor"
+              }
+            ],
+            "lemma": "vazgeçmek",
+            "raw": "vazgeç+VERB^DB+VERB+ABLE+NEG^DB+ADJ+PASTPART+P1PL",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Able",
+                "label": "ability"
+              },
+              {
+                "id": "Neg",
+                "label": "negation"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1pl",
+                "label": "1. person plural possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "vazgeçmek",
+            "raw": "vazgeç+VERB^DB+VERB+ABLE+NEG^DB+NOUN+PASTPART+A3SG+P1PL+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Able",
+                "label": "ability"
+              },
+              {
+                "id": "Neg",
+                "label": "negation"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "PastPart",
+                "label": "past participle"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P1sg",
+                "label": "1. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Verb",
+                "label": "verb"
+              },
+              {
+                "id": "Zero",
+                "label": "zero derivation"
+              },
+              {
+                "id": "Pres",
+                "label": "present tense"
+              },
+              {
+                "id": "A1pl",
+                "label": "1. person plural agreement"
+              }
+            ],
+            "lemma": "vazgeçmek",
+            "raw": "vazgeç+VERB^DB+VERB+ABLE+NEG^DB+NOUN+PASTPART+A3SG+P1SG+NOM^DB+VERB+ZERO+PRES+A1PL",
+            "segmentation": null
+          }
+        ],
+        "category": "compound-verb",
+        "expected": [
+          {
+            "features": [
+              "Neg",
+              "PastPart",
+              "P1pl"
+            ],
+            "lemma": "vazgeçmek"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "vazgeçemediğimiz"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              },
+              {
+                "id": "DB",
+                "label": "derivation boundary"
+              },
+              {
+                "id": "Adj",
+                "label": "adjective"
+              },
+              {
+                "id": "Agt",
+                "label": "agent noun"
+              }
+            ],
+            "lemma": "gözlük",
+            "raw": "gözlük+NOUN+A3SG+PNON+NOM^DB+ADJ+AGT",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "gözlükçü",
+            "raw": "gözlükçü+NOUN+A3SG+PNON+NOM",
+            "segmentation": null
+          }
+        ],
+        "category": "lexicalized-derivative",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "gözlükçü"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "gözlükçü"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "ışık",
+            "raw": "ışık+NOUN+A3SG+PNON+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "Prop",
+                "label": "proper name"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "ışık",
+            "raw": "ışık+NOUN+PROP+A3SG+PNON+NOM",
+            "segmentation": null
+          }
+        ],
+        "category": "turkish-case",
+        "expected": [
+          {
+            "features": [
+              "Noun"
+            ],
+            "lemma": "ışık"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "IŞIK"
+      },
+      {
+        "analyses": [
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "P3sg",
+                "label": "3. person singular possessor"
+              },
+              {
+                "id": "Nom",
+                "label": "nominative"
+              }
+            ],
+            "lemma": "kâğıt",
+            "raw": "kâğıt+NOUN+A3SG+P3SG+NOM",
+            "segmentation": null
+          },
+          {
+            "features": [
+              {
+                "id": "Noun",
+                "label": "noun"
+              },
+              {
+                "id": "A3sg",
+                "label": "singular noun"
+              },
+              {
+                "id": "Pnon",
+                "label": "no possessor"
+              },
+              {
+                "id": "Acc",
+                "label": "accusative"
+              }
+            ],
+            "lemma": "kâğıt",
+            "raw": "kâğıt+NOUN+A3SG+PNON+ACC",
+            "segmentation": null
+          }
+        ],
+        "category": "circumflex",
+        "expected": [
+          {
+            "features": [
+              "Acc"
+            ],
+            "lemma": "kâğıt"
+          }
+        ],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "surface": "kâğıdı"
+      },
+      {
+        "analyses": [],
+        "category": "negative-control",
+        "expected": [],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "negative": true,
+        "surface": "qzxqzx"
+      },
+      {
+        "analyses": [],
+        "category": "negative-control",
+        "expected": [],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "negative": true,
+        "surface": "evlerlerden"
+      },
+      {
+        "analyses": [],
+        "category": "negative-control",
+        "expected": [],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "negative": true,
+        "surface": "kitaplarden"
+      },
+      {
+        "analyses": [],
+        "category": "negative-control",
+        "expected": [],
+        "missing_features": [],
+        "missing_lemmas": [],
+        "negative": true,
+        "surface": "geldimiz"
+      }
+    ],
+    "cases_sha256": "cd50281136f9a33947188a8aa7386104460acb482a5634bf0953379783bfa3c2",
+    "corrections_sha256": "1fc91550ac9f3de3168aa507c6e5be772f5a8fa833225082fc4785b7dfa923a0",
+    "dependencies_sha256": "d33acade24e0d0af5823a0d929540b068a5665099d7315924344efe877e25ae6",
+    "engine": "dilbaz:1.0.52",
+    "evaluation_seconds": 0.05662809999193996,
+    "expected_analyses": 48,
+    "feature_constraint_hits": 47,
+    "feature_constraint_recall": 0.9791666666666666,
+    "feature_note": "Checks named feature subsets, not full sequence accuracy. Engine defaults/derivation conventions differ.",
+    "initialization_seconds": 1.4180349999805912,
+    "java_lock_sha256": "bc5c502a221d4c81b86cec15becc4300d0925bffdf115dd476403a6e69442ac9",
+    "lemma_hits": 48,
+    "lemma_recall": 1.0,
+    "missed_expected_analyses": 1,
+    "negative_controls": 4,
+    "negative_controls_with_false_matches": 0,
+    "peak_process_tree_rss_bytes": 187650048,
+    "precision": null,
+    "precision_note": "Positive expectations are non-exhaustive; additional analyses are unjudged, not false positives.",
+    "python": "3.14.7",
+    "review_status": "draft-awaiting-independent-human-review",
+    "throughput": {
+      "forms": 2000,
+      "forms_per_second": 690.3287904836537,
+      "seconds": 2.8971702000126243
+    }
+  }
+}

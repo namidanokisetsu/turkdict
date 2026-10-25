@@ -1,0 +1,5 @@
+{
+  "schema": 1,
+  "corrections": [],
+  "policy": "Add reviewed replacements with surface, expected, reviewer, date, and reason. No live LM calls. Corrections are evaluation data, never silently applied to production mappings."
+}
