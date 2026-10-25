@@ -1,0 +1,28 @@
+{
+  "manifest": "config/sources.lock.json",
+  "cache": "cache/stages",
+  "disabled_sources": [],
+  "presentation": {
+    "source_order": {"tr": ["tdk", "kenet"], "en": ["tureng", "wty"]},
+    "morphology_position": "top",
+    "morphology_style": "english-grammatical-terms-with-meaning-hints",
+    "morphology_language": "en",
+    "morphology_density": "small-inline",
+    "language_headings": "hidden",
+    "technical_feature_codes": "hidden",
+    "visible_senses": 3,
+    "visible_translations": 10,
+    "examples": "collapsed",
+    "etymology": "collapsed",
+    "build_metadata": "hidden"
+  },
+  "frequency": {"wordfreq": "3.1.1", "books": []},
+  "weights": {"subtitles": 1.0, "wordfreq": 1.0, "book_occurrences": 0.0, "book_documents": 0.0},
+  "morphology": {
+    "engine": "zemberek",
+    "selection_status": "selected-zemberek-accuracy-review-pending",
+    "observed_limit": 5000,
+    "generate_lemmas": ["ev", "kitap", "ağız"],
+    "generation_templates": [["A3pl"], ["A3pl", "P1pl", "Abl"], ["P3sg"], ["Acc"], ["Dat"], ["Loc"], ["Abl"]]
+  }
+}

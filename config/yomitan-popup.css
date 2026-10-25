@@ -1,0 +1,14 @@
+/* Hide dictionary-name badges; retain grammar, usage, and source content. */
+.tag[data-category="dictionary"] {
+    display: none !important;
+}
+
+/* Expanded text stays on the same left edge as the surrounding senses. */
+.gloss-sc-details {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.gloss-sc-details > .gloss-sc-div {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}

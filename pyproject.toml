@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turkdict"
+version = "0.1.0"
+requires-python = ">=3.14,<3.15"
+description = "Reproducible offline Turkish dictionary build pipeline"
+
+[project.scripts]
+turkdict = "turkdict.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["turkdict*"]

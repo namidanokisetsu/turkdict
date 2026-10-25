@@ -1,0 +1,60 @@
+[
+  {
+    "id": "tdk",
+    "parser": "tdk-sqlite-v1",
+    "language": "tr",
+    "direction": "tr-tr",
+    "snapshot": "33a0a561494fb46558e48f9d2e01d1872f1760ab",
+    "path": "data/raw/tdk.db",
+    "sha256": "9c3e5cb394d929090258e808c8bf3f408f277b5f52ff14b4adeeaddb274916a8",
+    "url": "https://raw.githubusercontent.com/ogun/guncel-turkce-sozluk/33a0a561494fb46558e48f9d2e01d1872f1760ab/sozluk/v12/v12.gts.sqlite3.db",
+    "bytes": 28958720
+  },
+  {
+    "id": "tureng",
+    "parser": "tureng-v1",
+    "language": "en",
+    "direction": "tr-en",
+    "snapshot": "5/17/2026",
+    "path": "research/tureng_database.zip",
+    "sha256": "939425381c874b9b9356fa3027d0795741cd7fb905ce453522ce6a7a52a15f24",
+    "url": "https://github.com/helallao/tureng/releases/download/5/17/2026/tureng_database.zip",
+    "bytes": 44141996
+  },
+  {
+    "id": "wty",
+    "parser": "wty-v1",
+    "language": "en",
+    "direction": "tr-en",
+    "snapshot": "2026.09.20",
+    "path": "research/wty-tr-en.zip",
+    "sha256": "15ccd82fc6529c295dbab1c0dc82b28cf39dbe41758b90fa57df62f527d9583b",
+    "url": "https://huggingface.co/datasets/daxida/wty-release/resolve/main/latest/dict/tr/en/wty-tr-en.zip",
+    "bytes": 17504531
+  },
+  {
+    "id": "subtitles",
+    "parser": "counts-v1",
+    "language": "tr",
+    "direction": "frequency",
+    "snapshot": "0e18d96445b6cb9a8ca34ab2f88b5056785ac378",
+    "path": "data/raw/subtitles.txt",
+    "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/0e18d96445b6cb9a8ca34ab2f88b5056785ac378/content/2018/tr/tr_full.txt",
+    "sha256": "62fed3d295a3250920f8a151f597cb28208633b6ff6e7bff90faed51ee86a9a5",
+    "bytes": 29715432
+  },
+  {
+    "id": "kenet",
+    "parser": "kenet-v1",
+    "language": "tr",
+    "direction": "tr-tr",
+    "optional": true,
+    "snapshot": "718fd441262602db6ea1ac9e2dcf3a5142bda06d",
+    "path": "data/raw/kenet.xml",
+    "sha256": "afe256845a8e8d26ab097eb8efda9627aae61c8018cba69b566adc19699593f5",
+    "url": "https://raw.githubusercontent.com/StarlangSoftware/TurkishWordNet-Py/718fd441262602db6ea1ac9e2dcf3a5142bda06d/WordNet/data/turkish_wordnet.xml",
+    "license": "GPL-3.0",
+    "license_url": "https://github.com/StarlangSoftware/TurkishWordNet-Py/blob/718fd441262602db6ea1ac9e2dcf3a5142bda06d/LICENSE",
+    "bytes": 31285446
+  }
+]

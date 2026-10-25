@@ -1,0 +1,678 @@
+{
+  "review_status": "awaiting-human-review",
+  "bounds": "config/build.json",
+  "samples": [
+    {
+      "definition_language": "en",
+      "display_surface": "ağza",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Dat",
+          "label": "dative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağz:Noun+A3sg+a:Dat"
+      },
+      "segmentation": null,
+      "surface": "ağza",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağzı",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Acc",
+          "label": "accusative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağz:Noun+A3sg+ı:Acc"
+      },
+      "segmentation": null,
+      "surface": "ağzı",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağzı",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "P3sg",
+          "label": "3. person singular possessor"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağz:Noun+A3sg+ı:P3sg"
+      },
+      "segmentation": null,
+      "surface": "ağzı",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağıza",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Dat",
+          "label": "dative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağız:Noun+A3sg+a:Dat"
+      },
+      "segmentation": null,
+      "surface": "ağıza",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağızda",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Loc",
+          "label": "locative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağız:Noun+A3sg+da:Loc"
+      },
+      "segmentation": null,
+      "surface": "ağızda",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağızdan",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Abl",
+          "label": "ablative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağız:Noun+A3sg+dan:Abl"
+      },
+      "segmentation": null,
+      "surface": "ağızdan",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağızlar",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3pl",
+          "label": "plural noun"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağız:Noun+lar:A3pl"
+      },
+      "segmentation": null,
+      "surface": "ağızlar",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağızlarımızdan",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3pl",
+          "label": "plural noun"
+        },
+        {
+          "id": "P1pl",
+          "label": "1. person plural possessor"
+        },
+        {
+          "id": "Abl",
+          "label": "ablative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağız:Noun+lar:A3pl+ımız:P1pl+dan:Abl"
+      },
+      "segmentation": null,
+      "surface": "ağızlarımızdan",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağızı",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Acc",
+          "label": "accusative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağız:Noun+A3sg+ı:Acc"
+      },
+      "segmentation": null,
+      "surface": "ağızı",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "ağızı",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "P3sg",
+          "label": "3. person singular possessor"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ağız",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ağız:Noun] ağız:Noun+A3sg+ı:P3sg"
+      },
+      "segmentation": null,
+      "surface": "ağızı",
+      "target_lemma_id": "tureng:3edeb46b5e2971cb4c4e40801dedbe1e57967baae7b2d5a81f91e7b4a0843df2"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "evde",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Loc",
+          "label": "locative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ev",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ev:Noun] ev:Noun+A3sg+de:Loc"
+      },
+      "segmentation": null,
+      "surface": "evde",
+      "target_lemma_id": "tureng:61b45590051ee423550287584d2db53bd648f94e236a9c139179fe6c2dd99c8d"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "evden",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Abl",
+          "label": "ablative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ev",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ev:Noun] ev:Noun+A3sg+den:Abl"
+      },
+      "segmentation": null,
+      "surface": "evden",
+      "target_lemma_id": "tureng:61b45590051ee423550287584d2db53bd648f94e236a9c139179fe6c2dd99c8d"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "eve",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Dat",
+          "label": "dative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ev",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ev:Noun] ev:Noun+A3sg+e:Dat"
+      },
+      "segmentation": null,
+      "surface": "eve",
+      "target_lemma_id": "tureng:61b45590051ee423550287584d2db53bd648f94e236a9c139179fe6c2dd99c8d"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "evi",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Acc",
+          "label": "accusative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ev",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ev:Noun] ev:Noun+A3sg+i:Acc"
+      },
+      "segmentation": null,
+      "surface": "evi",
+      "target_lemma_id": "tureng:61b45590051ee423550287584d2db53bd648f94e236a9c139179fe6c2dd99c8d"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "evi",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "P3sg",
+          "label": "3. person singular possessor"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ev",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ev:Noun] ev:Noun+A3sg+i:P3sg"
+      },
+      "segmentation": null,
+      "surface": "evi",
+      "target_lemma_id": "tureng:61b45590051ee423550287584d2db53bd648f94e236a9c139179fe6c2dd99c8d"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "evler",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3pl",
+          "label": "plural noun"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ev",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ev:Noun] ev:Noun+ler:A3pl"
+      },
+      "segmentation": null,
+      "surface": "evler",
+      "target_lemma_id": "tureng:61b45590051ee423550287584d2db53bd648f94e236a9c139179fe6c2dd99c8d"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "evlerimizden",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3pl",
+          "label": "plural noun"
+        },
+        {
+          "id": "P1pl",
+          "label": "1. person plural possessor"
+        },
+        {
+          "id": "Abl",
+          "label": "ablative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "ev",
+        "engine": "zemberek:0.17.1",
+        "raw": "[ev:Noun] ev:Noun+ler:A3pl+imiz:P1pl+den:Abl"
+      },
+      "segmentation": null,
+      "surface": "evlerimizden",
+      "target_lemma_id": "tureng:61b45590051ee423550287584d2db53bd648f94e236a9c139179fe6c2dd99c8d"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "kitaba",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Dat",
+          "label": "dative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "kitap",
+        "engine": "zemberek:0.17.1",
+        "raw": "[kitap:Noun] kitab:Noun+A3sg+a:Dat"
+      },
+      "segmentation": null,
+      "surface": "kitaba",
+      "target_lemma_id": "tureng:5cedf11d6e7a15dece61ff20bde31e30b1e0500662cf27fd5ed9a23e4f05de8e"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "kitabı",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Acc",
+          "label": "accusative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "kitap",
+        "engine": "zemberek:0.17.1",
+        "raw": "[kitap:Noun] kitab:Noun+A3sg+ı:Acc"
+      },
+      "segmentation": null,
+      "surface": "kitabı",
+      "target_lemma_id": "tureng:5cedf11d6e7a15dece61ff20bde31e30b1e0500662cf27fd5ed9a23e4f05de8e"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "kitabı",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "P3sg",
+          "label": "3. person singular possessor"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "kitap",
+        "engine": "zemberek:0.17.1",
+        "raw": "[kitap:Noun] kitab:Noun+A3sg+ı:P3sg"
+      },
+      "segmentation": null,
+      "surface": "kitabı",
+      "target_lemma_id": "tureng:5cedf11d6e7a15dece61ff20bde31e30b1e0500662cf27fd5ed9a23e4f05de8e"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "kitaplar",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3pl",
+          "label": "plural noun"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "kitap",
+        "engine": "zemberek:0.17.1",
+        "raw": "[kitap:Noun] kitap:Noun+lar:A3pl"
+      },
+      "segmentation": null,
+      "surface": "kitaplar",
+      "target_lemma_id": "tureng:5cedf11d6e7a15dece61ff20bde31e30b1e0500662cf27fd5ed9a23e4f05de8e"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "kitaplarımızdan",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3pl",
+          "label": "plural noun"
+        },
+        {
+          "id": "P1pl",
+          "label": "1. person plural possessor"
+        },
+        {
+          "id": "Abl",
+          "label": "ablative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "kitap",
+        "engine": "zemberek:0.17.1",
+        "raw": "[kitap:Noun] kitap:Noun+lar:A3pl+ımız:P1pl+dan:Abl"
+      },
+      "segmentation": null,
+      "surface": "kitaplarımızdan",
+      "target_lemma_id": "tureng:5cedf11d6e7a15dece61ff20bde31e30b1e0500662cf27fd5ed9a23e4f05de8e"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "kitapta",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Loc",
+          "label": "locative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "kitap",
+        "engine": "zemberek:0.17.1",
+        "raw": "[kitap:Noun] kitap:Noun+A3sg+ta:Loc"
+      },
+      "segmentation": null,
+      "surface": "kitapta",
+      "target_lemma_id": "tureng:5cedf11d6e7a15dece61ff20bde31e30b1e0500662cf27fd5ed9a23e4f05de8e"
+    },
+    {
+      "definition_language": "en",
+      "display_surface": "kitaptan",
+      "evidence": "engine-roundtrip",
+      "features": [
+        {
+          "id": "Noun",
+          "label": "noun"
+        },
+        {
+          "id": "A3sg",
+          "label": "singular noun"
+        },
+        {
+          "id": "Abl",
+          "label": "ablative"
+        }
+      ],
+      "origin": "generated",
+      "provenance": {
+        "analysis_lemma": "kitap",
+        "engine": "zemberek:0.17.1",
+        "raw": "[kitap:Noun] kitap:Noun+A3sg+tan:Abl"
+      },
+      "segmentation": null,
+      "surface": "kitaptan",
+      "target_lemma_id": "tureng:5cedf11d6e7a15dece61ff20bde31e30b1e0500662cf27fd5ed9a23e4f05de8e"
+    }
+  ]
+}

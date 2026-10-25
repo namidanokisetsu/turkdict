@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.12.1%2B1/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+    "path": "tools/OpenJDK21U-jdk_x64_windows_hotspot_21.0.12.1_1.zip",
+    "sha256": "f9d6e191ab098c0d416e7d588a24420a8621cd2f4720dab2459b8b7b2d2d8b4e"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ahmetaa/maven-repo/master/zemberek-nlp/zemberek-core/0.17.1/zemberek-core-0.17.1.jar",
+    "path": "tools/zemberek-core-0.17.1.jar",
+    "sha256": "7f26282de8aba4e490566182341e3f5f72fa0b563418db469de8c5d9adfd8a68"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ahmetaa/maven-repo/master/zemberek-nlp/zemberek-morphology/0.17.1/zemberek-morphology-0.17.1.jar",
+    "path": "tools/zemberek-morphology-0.17.1.jar",
+    "sha256": "c7327c346f104876a45051cccbbd6cc8468ddf592a1f0e1fdc7641ed886fae68"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ahmetaa/maven-repo/master/zemberek-nlp/zemberek-tokenization/0.17.1/zemberek-tokenization-0.17.1.jar",
+    "path": "tools/zemberek-tokenization-0.17.1.jar",
+    "sha256": "19013840de8173eb42afd8af765c83b1b79b7bffa94673266d245bffa43c43c3"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/ahmetaa/maven-repo/master/zemberek-nlp/zemberek-lm/0.17.1/zemberek-lm-0.17.1.jar",
+    "path": "tools/zemberek-lm-0.17.1.jar",
+    "sha256": "b62a930ff0324e3017768e9acb367d7336067de8964df2456be76718bf703423"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/25.1-jre/guava-25.1-jre.jar",
+    "path": "tools/guava-25.1-jre.jar",
+    "sha256": "6db0c3a244c397429c2e362ea2837c3622d5b68bb95105d37c21c36e5bc70abf"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.6.2/caffeine-2.6.2.jar",
+    "path": "tools/caffeine-2.6.2.jar",
+    "sha256": "e77a4457735f075158dbd021c7661797dd485695fc4ed92dfdde34d4714d9750"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/com/google/protobuf/protobuf-java/3.9.0/protobuf-java-3.9.0.jar",
+    "path": "tools/protobuf-java-3.9.0.jar",
+    "sha256": "6c96d85eac237fea84d9d5e7413c85b62f2df0b9f7b17b0168bd1e28b09ff0e8"
+  },
+  {
+    "url": "https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.7/antlr4-runtime-4.7.jar",
+    "path": "tools/antlr4-runtime-4.7.jar",
+    "sha256": "2a61943f803bbd1d0e02dffd19b92a418f83340c994346809e3b51e2231aa6c0"
+  }
+]
