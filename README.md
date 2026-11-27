@@ -6,13 +6,13 @@ Each ZIP contains one dictionary or lookup resource. [Browse all releases](https
 
 | Dictionary | Yomitan | StarDict for KOReader |
 | --- | --- | --- |
-| TDK (Turkish → Turkish) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tdk-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tdk-stardict.zip) |
-| KeNet (Turkish → Turkish) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-kenet-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-kenet-stardict.zip) |
-| Tureng (Turkish → English) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tureng-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tureng-stardict.zip) |
-| Tureng (English → Turkish) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/english-tureng-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/english-tureng-stardict.zip) |
-| Turkish Forms | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-forms-yomitan.zip) | Included in Turkish-source packs |
-| Frequency | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-frequency-yomitan.zip) | Included in Turkish-source packs |
-| Turkish Morphology |  | [Optional download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-morphology-stardict.zip) |
+| [TR-TR] TDK | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tdk-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tdk-stardict.zip) |
+| [TR-TR] KeNet | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-kenet-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-kenet-stardict.zip) |
+| [TR-EN] Tureng | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tureng-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tureng-stardict.zip) |
+| [EN-TR] Tureng | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/english-tureng-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/english-tureng-stardict.zip) |
+| [TR] Forms | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-forms-yomitan.zip) | Included in Turkish-source packs |
+| [TR] Frequency | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-frequency-yomitan.zip) | Included in Turkish-source packs |
+| [TR] Morphology |  | [Optional download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-morphology-stardict.zip) |
 
 [Sources and how word forms work](SOURCES.md).
 
