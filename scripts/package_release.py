@@ -1,54 +1,42 @@
-"""Bundle hash-verified, validated KOReader and Yomitan files for a GitHub release."""
+"""Publish individually installable, hash-verified Yomitan and StarDict archives."""
 import argparse
 import hashlib
 from pathlib import Path
+import shutil
 import sys
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from turkdict.common import digest, read_json
-from turkdict.editions import definition_packs, installation_basename, pack_basename
+from turkdict.editions import definition_packs, pack_basename
 
 
-def bundle(destination, members):
-    """Write deterministic bundles and verify every member against its input hash."""
+def stardict_archive(destination, source, members):
+    """Write a deterministic installable archive and verify its member hashes."""
     hashes = {}
-    with zipfile.ZipFile(destination, 'w', compression=zipfile.ZIP_DEFLATED) as out:
-        def add(name, stream, stored=False):
-            if name in hashes:
-                raise ValueError('Duplicate bundle member: ' + name)
+    with zipfile.ZipFile(source) as original, zipfile.ZipFile(destination, 'w') as out:
+        for name in sorted(members):
             info = zipfile.ZipInfo(name, (1980, 1, 1, 0, 0, 0))
             info.create_system = 3
             info.external_attr = 0o100644 << 16
-            info.compress_type = zipfile.ZIP_STORED if stored else zipfile.ZIP_DEFLATED
+            info.compress_type = zipfile.ZIP_STORED if name.endswith('.dz') else zipfile.ZIP_DEFLATED
             h = hashlib.sha256()
-            with out.open(info, 'w', force_zip64=True) as target:
+            with original.open(name) as stream, out.open(info, 'w', force_zip64=True) as target:
                 while block := stream.read(1024 * 1024):
                     h.update(block)
                     target.write(block)
             hashes[name] = h.hexdigest()
-        import io
-        for name, data in members:
-            if isinstance(data, Path):
-                with data.open('rb') as stream:
-                    add(name, stream, data.suffix in ('.zip', '.dz'))
-            elif isinstance(data, tuple):
-                archive_path, member = data
-                with zipfile.ZipFile(archive_path) as archive, archive.open(member) as stream:
-                    add(name, stream, name.endswith('.dz'))
-            else:
-                add(name, io.BytesIO(data))
     with zipfile.ZipFile(destination) as archive:
         if archive.testzip() is not None:
-            raise ValueError('Bundle CRC failure')
+            raise ValueError('StarDict archive CRC failure: ' + destination.name)
         for name, expected in hashes.items():
             h = hashlib.sha256()
             with archive.open(name) as stream:
                 while block := stream.read(1024 * 1024):
                     h.update(block)
             if h.hexdigest() != expected:
-                raise ValueError('Bundle member differs from input: ' + name)
+                raise ValueError('StarDict archive member differs from input: ' + name)
 
 
 def main():
@@ -74,20 +62,29 @@ def main():
         for name, info in report['files'].items():
             if digest(directory/name) != info['sha256']:
                 raise ValueError('Artifact changed after validation: ' + name)
-    dest.mkdir(parents=True)
     definitions = definition_packs(y)
     if definition_packs(k) != definitions:
         raise ValueError('Editions have different definition packs')
+    if any(pack['kind'] in ('mono', 'bilingual') for pack in definitions):
+        raise ValueError('Separate the source dictionaries before packaging public assets')
     expected_yomitan = {pack_basename(pack) + '.zip' for pack in definitions} | {'turkish-forms.zip', 'turkish-etymology.zip'}
     if not expected_yomitan <= set(y['files']) or set(y['files']) - expected_yomitan - {'turkish-frequency.zip'}:
         raise ValueError('Unexpected Yomitan installation files')
-    installation_names = {pack_basename(pack): installation_basename(pack) for pack in definitions}
-    installation_names.update({f'turkish-{kind}': installation_basename(dict(kind=kind, language='en'))
-                               for kind in ('forms', 'frequency', 'etymology', 'morphology')})
-    yomitan = [(installation_names[Path(name).stem] + '.zip', args.yomitan/name) for name in y['files']]
-    koreader = []
+    omitted = {pack_basename(pack) for pack in definitions if pack['kind'] in ('wiktionary', 'etymology')}
+    omitted.add('turkish-etymology')
+    dest.mkdir(parents=True)
+    published = []
+    for name, info in sorted(y['files'].items()):
+        basename = Path(name).stem
+        if basename in omitted:
+            continue
+        target = dest / (basename + '-yomitan.zip')
+        shutil.copyfile(args.yomitan / name, target)
+        if digest(target) != info['sha256']:
+            raise ValueError('Copied artifact differs from input: ' + name)
+        published.append(target)
     basenames = {pack_basename(pack) for pack in definitions} | {'turkish-etymology', 'turkish-morphology'}
-    for name in k['files']:
+    for name in sorted(k['files']):
         with zipfile.ZipFile(args.koreader/name) as archive:
             basename = name.removeprefix('koreader-').removesuffix('.zip')
             expected = {f'{basename}/{basename}{suffix}'
@@ -97,12 +94,13 @@ def main():
             if (basename not in basenames
                     or not expected <= found or found - expected - {cache}):
                 raise ValueError('Unexpected KOReader installation files: ' + name)
-            renamed = installation_names[basename]
-            for suffix in ('.css', '.dict.dz', '.idx', '.ifo'):
-                koreader.append((f'{renamed}/{renamed}{suffix}', (args.koreader/name, f'{basename}/{basename}{suffix}')))
-    for filename, members in [('turkdict-yomitan.zip', yomitan), ('turkdict-koreader.zip', koreader)]:
-        bundle(dest/filename, members)
-        print(f'{filename}: {(dest/filename).stat().st_size:,} bytes; SHA-256 {digest(dest/filename)}', flush=True)
+        if basename in omitted:
+            continue
+        target = dest / (basename + '-stardict.zip')
+        stardict_archive(target, args.koreader / name, expected)
+        published.append(target)
+    for target in published:
+        print(f'{target.name}: {target.stat().st_size:,} bytes; SHA-256 {digest(target)}', flush=True)
 
 
 if __name__ == '__main__':

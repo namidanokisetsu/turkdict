@@ -1,23 +1,30 @@
 # Turkish reading dictionaries
 
-Turkish-to-Turkish, Turkish-to-English, and English-to-Turkish dictionaries for KOReader and Yomitan. Turkish lookup includes inflections and frequency ranks.
+Turkish-to-Turkish, Turkish-to-English, and English-to-Turkish dictionaries in StarDict and Yomitan formats. Turkish lookup includes inflections and frequency ranks.
 
-- [KOReader download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkdict-koreader.zip) (261 MiB)
-- [Yomitan download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkdict-yomitan.zip) (111 MiB)
+Each ZIP contains one dictionary or lookup resource. [Browse all releases](https://github.com/namidanokisetsu/turkdict/releases).
 
-Includes TDK, KeNet, Wiktionary, and Tureng. Install only the dictionaries you want.
+| Dictionary | Yomitan | StarDict for KOReader |
+| --- | --- | --- |
+| TDK (Turkish → Turkish) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tdk-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tdk-stardict.zip) |
+| KeNet (Turkish → Turkish) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-kenet-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-kenet-stardict.zip) |
+| Tureng (Turkish → English) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tureng-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-tureng-stardict.zip) |
+| Tureng (English → Turkish) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/english-tureng-yomitan.zip) | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/english-tureng-stardict.zip) |
+| Turkish Forms | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-forms-yomitan.zip) | Included in Turkish-source packs |
+| Frequency | [Download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-frequency-yomitan.zip) | Included in Turkish-source packs |
+| Turkish Morphology |  | [Optional download](https://github.com/namidanokisetsu/turkdict/releases/latest/download/turkish-morphology-stardict.zip) |
 
 [Sources and how word forms work](SOURCES.md).
 
-## KOReader
+## KOReader (StarDict)
 
-Extract the bundle, copy your chosen dictionary folders into `data/dict/`, and restart KOReader. Enable your dictionaries in **Dictionary settings**.
+Extract each dictionary archive and keep its `.ifo`, `.idx`, and `.dict.dz` files together. In KOReader, copy the extracted folder into `data/dict/`, restart, and enable the dictionary in **Dictionary settings**.
 
-Turkish inflected-word lookup is included. For English inflections, enable **fuzzy search**. Etymology and morphology are optional.
+Turkish inflected-word lookup is included. In KOReader, enable **fuzzy search** for English inflections. Tureng’s **More** link uses the reader’s `bword://` dictionary links.
 
 ## Yomitan
 
-Extract the bundle. For Turkish lookup, import **Turkish Forms** and your chosen dictionaries. Frequency and etymology are optional.
+Import each dictionary ZIP directly. For Turkish lookup, add **Turkish Forms** and your chosen dictionaries. **Frequency** is optional.
 
 Select **Turkish**, enable **Use deinflections** for **Turkish Forms**, and set search resolution to **Word**.
 

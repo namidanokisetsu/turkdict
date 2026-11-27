@@ -44,7 +44,7 @@ Use `--help` for each script's options. Set input and output paths explicitly; s
 | Remove redundant headings | `scripts/remove_source_headings.py` | Separated Yomitan release |
 | Export KOReader | `scripts/export_koreader.py` | Completed Yomitan release |
 | Build optional morphology | `scripts/export_koreader_morphology.py` | Matching KOReader base, canonical forms, original mappings |
-| Package downloads | `scripts/package_release.py` | Matching application releases |
+| Package individual dictionaries | `scripts/package_release.py` | Matching application releases with separated source dictionaries |
 
 The morphology exporter needs the forms database, its `dictionary_evidence` table, `mappings.jsonl`, and the matching definitions database. Keep these files if you plan to rebuild.
 
@@ -53,9 +53,11 @@ The morphology exporter needs the forms database, its `dictionary_evidence` tabl
 ```powershell
 node scripts/check_yomitan_browser.mjs PATH_TO_YOMITAN_RELEASE build/browser-validation
 .venv/Scripts/python scripts/validate_koreader.py PATH_TO_KOREADER_RELEASE --sdcv PATH_TO_SDCV
-.venv/Scripts/python scripts/package_release.py --yomitan PATH_TO_YOMITAN_RELEASE --koreader PATH_TO_KOREADER_RELEASE --destination build/releases/bundles
+.venv/Scripts/python scripts/package_release.py --yomitan PATH_TO_YOMITAN_RELEASE --koreader PATH_TO_KOREADER_RELEASE --destination build/releases/publish
 ```
 
 Some checks also need the matching Yomitan source checkout in `research/yomitan`. Browser checks use a separate profile. Keep it to use `--resume` or `--reuse-from`; otherwise, start a fresh import.
+
+The publish directory contains one ZIP per dictionary or lookup resource. Wiktionary and the standalone etymology pack stay in the build inputs for validation and are excluded from the public assets.
 
 Build reports contain absolute paths. Update those paths if you move the data. Re-run checks after changing exported dictionaries.
